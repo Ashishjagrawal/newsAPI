@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 
    ```env
    GNEWS_API_KEY=your-api-key-here
-   PORT=3000 # Optional, specify the desired port (default is 3000)
+   PORT=3000 
    ```
 
 ## Usage
