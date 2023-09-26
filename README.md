@@ -24,8 +24,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/news-api.git
-   cd news-api
+   git clone https://github.com/Ashishjagrawal/newsAPI.git
+   cd newsAPI
    ```
 
 2. Install the project dependencies:
