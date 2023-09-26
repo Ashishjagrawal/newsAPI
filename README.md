@@ -1,4 +1,3 @@
-```markdown
 # News API
 
 A simple Node.js API for fetching news articles from the GNews API, with caching and Swagger documentation.
