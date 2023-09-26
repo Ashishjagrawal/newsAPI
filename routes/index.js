@@ -8,7 +8,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { getNewsArticlesByCount, getNewsArticlesByCategory, searchNewsArticles  } = require("../controllers");
+const { getNewsArticlesByCount, getNewsArticlesByCategory, searchNewsArticles } = require("../controllers");
 
 
 /**
@@ -34,7 +34,7 @@ const { getNewsArticlesByCount, getNewsArticlesByCategory, searchNewsArticles  }
  *       500:
  *         description: Failed to fetch news articles.
  */
-router.get( "/news/:count", getNewsArticlesByCount );
+router.get("/news/:count", getNewsArticlesByCount);
 
 /**
  * @swagger

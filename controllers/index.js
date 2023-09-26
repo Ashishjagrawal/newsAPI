@@ -11,7 +11,7 @@ exports.getNewsArticlesByCount = async (req, res) => {
 
     //Get news articles from cache if present
     const cachedNews = newsCache.get(`news_${count}`);
-    
+
     if (cachedNews) {
         return res.json(cachedNews);
     }
